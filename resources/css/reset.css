@@ -1,0 +1,31 @@
+/* ------------ Reset CSS ------------ */
+
+/* Reset all margins and padding to zero */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Optional: Reset common HTML elements for consistency */
+html, body {
+	height: 100%;
+	font-family: Arial, sans-serif; /* Customize as needed */
+}
+
+/* Remove default list styles */
+ul, ol {
+	list-style: none;
+}
+
+/* Remove default text decoration on links */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Remove default table border spacing */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
